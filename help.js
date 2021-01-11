@@ -5,7 +5,7 @@ const help = (prefix) => {
     •••••••꧁ঔৣBOT MEGAHঔৣ꧂••••••
     ╭──꧁✞ COMANDOS ✞꧂──🔆
     ║╭──꧁✞ BOT ✞꧂──🔆
-    ║╠➣ R$12.00 PRA ADD NO GRUPO 
+    ║╠➣ Traduzido por @Max 
     ║╰───────────────── 
     ⟞⟦────────────────🔰
     ║ ꧁ঔৣ✞BOT MEGAH✞ঔৣ꧂
