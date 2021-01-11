@@ -151,11 +151,11 @@ client.on('group-participants-update', async (anu) => {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '❬❗❭ AGUARDE UM POUCO MAN',
+				wait: '❬❗❭ AGUARDE UM POUCO LEK',
 				success: '️❬ ✔ ❭ SUCESSO 🖤',
 				error: {
 					stick: 'Yah gagal ;(, coba ulangi ^_^',
-					Iv: 'PUTS LINK INVÁLIDO☹️'
+					Iv: 'PORRA O LINK É INVÁLIDO!'
 				},
 				only: {
 					group: '❬❗❭ SÓ EM GRUPO ',
@@ -672,7 +672,7 @@ client.on('group-participants-update', async (anu) => {
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
 					dtt.length > 300
-					? reply('lah teks nya kepanjangan bambang😤')
+					? reply('o texto é idiota😤')
 					: gtts.save(ranm, dtt, function() {
 						exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
 							fs.unlinkSync(ranm)
